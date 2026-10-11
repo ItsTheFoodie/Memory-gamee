@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
+import heroImg from './assets/Star FIsh.jpg'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
@@ -12,13 +12,11 @@ function App() {
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
+          <h1>Memory Game</h1>
           <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            Let's see how many matches you can catch! 
           </p>
         </div>
         <button
@@ -35,28 +33,17 @@ function App() {
       <section id="next-steps">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
+            <use href="/grinning-face-with-big-eyes-svgrepo-com.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+          <h2>How to Play</h2>
+          
+         <p>
+         Click on the cards to flip them over and try to find matching pairs. The game ends when all pairs are found. Good luck!
+         </p>
         </div>
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
+            <use href="/grinning-face-with-big-eyes-svgrepo-com.svg#social-icon"></use>
           </svg>
           <h2>Connect with us</h2>
           <p>Join the Vite community</p>
