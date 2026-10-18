@@ -3,6 +3,7 @@ import heroImg from './assets/Star FIsh.jpg'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import Container from './Container'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
     <>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
+          <img src={heroImg} className="base" width="379" alt="starfish" />
         </div>
         <div>
           <h1>Memory Game</h1>
@@ -26,6 +27,7 @@ function App() {
         >
           Count is {count}
         </button>
+      <div><Container /></div>
       </section>
 
       <div className="ticks"></div>
